@@ -1,0 +1,48 @@
+{
+  "name": "edocalo",
+  "version": "2.0.0",
+  "main": "app.local.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "private": true,
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "express-session": "^1.17.3",
+    "express-validator": "5.3.1",
+    "jsonwebtoken": "8.5.1",
+    "moment": "2.24.0",
+    "mongodb": "^5.5.0",
+    "mongoose": "5.6.11",
+    "nodemailer": "6.3.0",
+    "noogger": "0.1.8",
+    "passport": "0.4.0",
+    "passport-jwt": "4.0.0",
+    "passport-local": "1.0.0"
+  },
+  "devDependencies": {
+    "@types/jasmine": "~2.8.8",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~8.9.4",
+    "codelyzer": "~4.3.0",
+    "dotenv": "^8.2.0",
+    "jasmine-core": "~2.99.1",
+    "jasmine-spec-reporter": "~4.2.1",
+    "karma": "~3.0.0",
+    "karma-chrome-launcher": "~2.2.0",
+    "karma-coverage-istanbul-reporter": "~2.0.1",
+    "karma-jasmine": "~1.1.2",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "nodemon": "^3.0.1",
+    "protractor": "~5.4.0",
+    "ts-node": "~7.0.0",
+    "tslint": "~5.11.0",
+    "typescript": "~2.9.2"
+  },
+  "engines": {
+    "node": "8.10.0",
+    "npm": "5.8.0"
+  }
+}
